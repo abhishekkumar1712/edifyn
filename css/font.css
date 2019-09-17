@@ -1,0 +1,71 @@
+body{
+  font-family:wlf,Verdana;
+  -webkit-font-smoothing: antialiased;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500'); */
+
+@font-face{
+    font-family:wrftw;
+    src:url("../fonts/Ubuntu-M.ttf")  format('truetype') ;
+    font-weight:normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+} 
+@font-face{
+    font-family:wlftw;
+    src:url("../fonts/Ubuntu-L.ttf") format('truetype') ;
+    font-weight:normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face{
+    font-family:wrf;
+    src:url("../fonts/avenir-bold.woff2") format('woff2') ;
+    font-weight:normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+} 
+@font-face{
+    font-family:wlf;
+    src:url("../fonts/avenir-medium.woff2") format('woff2') ;
+    font-weight:normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(../fonts/MaterialIcons-Regular.eot);
+            /* For IE6-8 */
+            src: local('Material Icons'),
+            local('../fonts/MaterialIcons-Regular'),
+            url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+            url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+            url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+        }
+
+                .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            /* Preferred icon size */
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+            height: 24px;
+            width: 24px;
+            color: inherit;
+        }

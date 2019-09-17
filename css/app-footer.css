@@ -1,0 +1,52 @@
+
+
+.lastbar{
+	width: 100%;
+	height: 50px;
+	position: relative;
+	background: rgb(45,45,45);
+}
+.lb1{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+.lb1a , .lb1b{
+height:50px;
+}
+.lb1a1 , .lb1a2 , .lb1a3 , .lb1a4 , .lb1a5 , .lb1a6{
+width:100px;
+line-height:50px;
+height:50px;
+font-family:wlf,Verdana;
+font-size:15px;
+color:rgb(255,255,255);
+
+	color: rgb(120,120,120);
+}
+.lb1a2{
+margin-left:100px;
+}
+.lb1a3{
+margin-left:200px;
+}
+.lb1a4{
+margin-left:300px;
+}
+.lb1a5{
+margin-left:410px;
+}
+.lb1b{
+	height: 50px;
+	text-align: right;
+	color: rgb(90,90,90);
+	line-height: 50px;
+	font-size: 15px;
+	word-spacing: 1px;
+    float: right;
+    margin-right: 50px;
+}
+
+
+

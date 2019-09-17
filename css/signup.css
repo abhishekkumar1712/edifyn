@@ -1,0 +1,409 @@
+body{
+  font-family: wlf ;
+  padding: 0;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+ margin: 0;
+}
+.container{
+  margin: 0 auto;
+}
+.left-pane{
+  width: 600px;
+  height: auto;
+  margin-left: 70px;
+
+}
+.container-signup{
+   width:100%;
+    height: 850px;
+    margin-top: 90px;
+}
+
+.cent-signup{
+    height:755px;
+    width:320px;
+    float:right;
+    margin-right:50px;
+    border-radius: 2px;
+    background: rgb(250,250,250);
+    border: 2px solid rgb(247,247,247);
+}
+.usrtxt , .pastxt , .mntxt , .fntxt , .confpastxt , .firstntxt , .lastntxt{
+  width: 270px;
+  height: 20px;
+  color: rgb(0,0,0);
+  font-size: 15px;
+  margin-left: 25px;
+  margin-top: 21px;
+  color: #234;
+}
+.dot{
+  width: 5px;
+height: 5px;
+border-radius: 3px;
+background-color: #d8d8d8;
+float:left;
+line-height: 23px;
+margin-right: 10px;
+}
+
+
+.firstn , .lastn  , .confpas , .username , .password  , .mn {
+  width: 280px;
+  height: 35px;
+  background: rgb(253,253,253);
+  font-size: 15px;
+  padding-left: 13px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  color: rgb(0,0,0);
+  border: 1px solid rgb(230,230,230);
+}
+
+
+.termtxt{
+  width: 280px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  line-height:21px;
+}
+a{
+  color: rgb(0,121,234);
+   text-decoration:none;
+}
+.submit{
+  margin-top: 30px;
+  width: 280px;
+  margin-left: 20px;
+  height: 40px;
+  background: rgb(0,121,234);
+  border-radius: 2px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 40px;
+  color: rgb(250,250,250);
+  border:none;
+  outline: none;
+  font-family:wrf,Verdana;
+  cursor: pointer;
+}
+.help{
+  width: 280px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  text-align: right;
+}
+
+@media only screen and (min-width: 710px) {
+
+}
+
+
+
+.left-d1 , .left-d1-two{
+  width: 100%;
+  height: auto;
+  position: relative;
+    color:#234;
+}
+.left-d1-two{
+    margin-top: 50px;
+}
+
+.left-d1a{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.left-d1b{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.left-d2{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+    background: rgb(220,230,240);
+    padding-bottom: 20px;
+    border-radius: 3px;
+        background: rgb(250,250,250);
+    border: 2px solid rgb(247,247,247);
+}
+
+.left-d2a{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.left-d2b{
+  font-size: 17px;
+  padding-left: 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 27px;
+}
+.left-d2c{
+  font-size: 15px;
+  padding-left: 5px;
+  line-height: 23px;
+}
+
+.left-d2c-red{
+  font-size: 15px;
+  padding-left: 30px;
+  margin-right: 30px;
+  margin-top: 5px;
+  color: red;
+}
+
+.left-d3{
+  height: auto;
+  width:auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.left-d3a , .left-d3b , .left-d3c , .left-d3d , .left-d3e , .left-d3f , .left-d3g , .left-d3h{
+  width: 60px;
+  height: 50px;
+  display: inline-block;
+  left: 50px;
+  right: 50px;
+  color: #333;
+  font-size: 37px;
+
+}
+
+.help-signup{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  color: rgb(0,121,234);
+  line-height: 25px;
+}
+
+.help-signup:hover{
+text-decoration: underline;
+  color: rgb(0,121,234);
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+.left-pane{
+  width: 600px;
+  height: auto;
+  top: 10px;
+  position: relative;
+  margin-left: 10px;
+
+}
+.container-signup{
+   width:100%;
+   margin-top:0px;
+    height: 800px;
+    padding-bottom: 50px;
+}
+
+.cent-signup{
+    margin-right:10px;
+    margin-top:20px;
+}
+}
+
+
+@media only screen and (max-width: 1020px) {
+.left-pane{
+  width: 400px;
+  height: auto;
+  top: 10px;
+  position: relative;
+  margin-left: 10px;
+}
+.container-signup{
+   width:100%;
+   margin-top:0px;
+    height: 870px;
+    padding-bottom: 50px;
+}
+
+.cent-signup{
+    margin-right:10px;
+    margin-top:20px;
+}
+}
+
+@media only screen and (max-width: 850px) {
+.left-pane{
+  width: 96%;
+  height: auto;
+  top: 10px;
+  position: relative;
+  margin-left: 2%;
+  background:transparent;
+}
+.container-signup{
+   width:100%;
+   margin-top:50px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.cent-signup{
+    margin-right:10px;
+    margin-top:400px;
+    position: absolute;
+}
+
+.left-d3{
+  height: auto;
+  width:auto;
+  margin-top: 890px;
+}
+}
+
+
+@media only screen and (max-width: 550px) {
+.container-signup{
+   width:100%;
+   margin-top:50px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.cent-signup{
+    margin-right:10px;
+    margin-top:490px;
+}
+.left-d2b{
+  font-size: 15px;
+}
+.left-d2c{
+  font-size: 13px;
+}
+}
+
+
+@media only screen and (max-width: 450px) {
+.container-signup{
+   width:100%;
+   margin-top:50px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.cent-signup{
+    margin-right:0px;
+    margin-top:550px;
+    background:transparent;
+}
+.left-d2b{
+  font-size: 13px;
+}
+.left-d2c{
+  font-size: 11px;
+}
+}
+
+.container-signup-thankyou{
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 150px;
+    color: #ffffff;
+      margin-top: -20px;
+
+}
+
+.sthank{
+  width: 100%;
+  height: auto;
+  font-size: 90px;
+
+}
+
+.sthank-2{
+  max-width: 800px;
+  width: 70%;
+  height: auto;
+  font-size: 30px;
+  padding-top: 50px;
+  margin:0 auto;
+  line-height: 50px;
+  padding-bottom: 50px;
+  font-family: wlf,Verdana;
+}
+
+.sthank-3{
+  width: 140px;
+  height: 40px;
+  font-size:23px;
+  background: rgb(0,121,224); 
+  margin: 0 auto;
+  line-height: 37px;
+  color: rgb(255,255,255);
+}
+
+
+.left-sthank{
+  height: auto;
+  width:auto;
+  margin-top: 70px;
+}
+
+.left-sthank-a , .left-sthank-b , .left-sthank-c , .left-sthank-d , .left-sthank-e , .left-sthank-f , .left-sthank-g , .left-sthank-h{
+  width: 120px;
+  height: 125px;
+  display: inline-block;
+  left: 50px;
+  right: 50px;
+}
+
+.help-signup-tk{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  line-height: 55px;
+  font-size: 30px;
+  color: #fff;
+}
+
+@media (max-width:450px) {
+    .container {
+        padding: 0 5px;
+    }
+}
+
+
+@media (max-width:520px) {
+    .sthank{
+        font-size: 40px;
+    }
+    .sthank-2{
+        width: 96%;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .help-signup-tk{
+  font-size: 20px;
+}
+}
+
+

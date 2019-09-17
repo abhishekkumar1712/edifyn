@@ -1,0 +1,9 @@
+. Remove Routing 
+
+Remove Router Mechanism from all the application Dynamic Routing of pages take more processing and complex the coding system so static pages is good remove all the routing from video application ecommerce application question answers and make static page like index videowacth answer buy etc like that 
+
+2. Remove Templating System 
+
+Remove Templating System from all the application and make simple html markup and php or javascript no templating system is good as it increase the complexity and make hard for coders to organise the fuking code.
+
+3. Userspice nedd to writeable permissions of users/init.php and php extension of pdo ,xml ,mysqli aand thats it
